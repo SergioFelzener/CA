@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Capitão America</title>
+    <title>Capitão America Logo CSS</title>
 </head>
 <style>
     body {
         margin-top: 10%;
     }
-
+    
     .circle {
         border-radius: 50%;
         display: flex;
@@ -20,7 +20,7 @@
         border: 1px solid black;
         background: linear-gradient(to right, var(--collor1), var(--collor2), var(--collor1));
     }
-
+    
     #circle1 {
         margin: auto;
         width: 256px;
@@ -28,35 +28,35 @@
         --collor1: red;
         --collor2: #c10101;
     }
-
+    
     #circle2 {
         width: 206px;
         height: 206px;
         --collor1: white;
         --collor2: white;
     }
-
+    
     #circle3 {
         width: 156px;
         height: 156px;
         --collor1: red;
         --collor2: #c10101;
     }
-
+    
     #circle4 {
         width: 106px;
         height: 106px;
         --collor1: blue;
         --collor2: #02264d;
     }
-
+    
     #star {
         border-left: 50px solid transparent;
         border-right: 50px solid transparent;
         border-bottom: 35px solid white;
         transform: rotate(180DEG);
     }
-
+    
     #star:before {
         position: absolute;
         border-left: 50px solid transparent;
@@ -66,7 +66,7 @@
         content: "";
         left: -50px;
     }
-
+    
     #star:after {
         position: absolute;
         border-left: 50px solid transparent;
@@ -78,16 +78,18 @@
         top: 0.1px;
     }
 </style>
+
 <body>
     <div id="circle1" class="circle">
         <div id="circle2" class="circle">
             <div id="circle3" class="circle">
                 <div id="circle4" class="circle">
-                    <div id="star" class="star">   
+                    <div id="star" class="star">
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </body>
+
 </html>
