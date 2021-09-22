@@ -1,2 +1,2 @@
 # CA - Capitão America 
-Desenhando com CSS 2020 v1.2
+Desenhando com CSS 2020 v1.3
